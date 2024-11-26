@@ -1,0 +1,23 @@
+# Hangman Game
+
+A simple and friendly Hangman game implemented using Python's Tkinter library. Players can guess letters to uncover a randomly selected word. The game provides a graphical user interface (GUI) for an engaging experience.
+
+## Features
+
+- Random word selection from a predefined list.
+- User-friendly GUI with buttons for letter guessing.
+- Displays the current state of the word and the number of incorrect guesses.
+- Feedback for already guessed letters.
+- Option to reset the game after finishing.
+
+## Requirements
+
+- Python 3.x
+- Tkinter (usually included with Python installations)
+
+## Installation
+
+**Clone the repository:**
+   ```bash
+   git clone https://github.com/Tony-Stone-Code/CodeAlpha_Hangman_game.git
+   cd hangman-game
