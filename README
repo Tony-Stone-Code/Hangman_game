@@ -19,5 +19,5 @@ A simple and friendly Hangman game implemented using Python's Tkinter library. P
 
 **Clone the repository:**
    ```bash
-   git clone https://github.com/Tony-Stone-Code/CodeAlpha_Hangman_game.git
+   git clone https://github.com/Tony-Stone-Code/Hangman_game
    cd hangman-game
