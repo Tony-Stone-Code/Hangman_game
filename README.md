@@ -29,6 +29,10 @@ A feature-rich and user-friendly Hangman word guessing game with a modern graphi
 - Python 3.7 or higher
 - Tkinter (usually included with Python installations)
 
+> **Note:** If you don't have Tkinter or can't install it, use the CLI version with `hangman-cli` command!
+
+For detailed installation instructions, see [INSTALL.md](INSTALL.md).
+
 ## 🚀 Installation
 
 ### Method 1: Install from PyPI (Recommended)
@@ -65,21 +69,29 @@ pip install git+https://github.com/Tony-Stone-Code/Hangman_game.git
 
 After installation, you can start the game in multiple ways:
 
-1. **From command line (after installation):**
+1. **GUI version (with Tkinter):**
    ```bash
    hangman
    ```
 
-2. **As a Python module:**
+2. **CLI version (no Tkinter needed):**
    ```bash
-   python -m hangman_game
+   hangman-cli
    ```
 
-3. **From Python code:**
+3. **As a Python module:**
+   ```bash
+   python -m hangman_game      # GUI version
+   python -m hangman_game.cli  # CLI version
+   ```
+
+4. **From Python code:**
    ```python
    from hangman_game.ui.gui import main
    main()
    ```
+
+For complete installation instructions, see [INSTALL.md](INSTALL.md).
 
 ### Game Rules
 
@@ -167,6 +179,8 @@ Contributions are welcome! Here are some ways you can contribute:
 3. Add more words to the word database
 4. Improve documentation
 5. Submit pull requests
+
+For developers, see [DEVELOPERS.md](DEVELOPERS.md) for detailed development guidelines.
 
 ## 📝 License
 
